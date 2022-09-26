@@ -22,7 +22,7 @@ namespace Task_12
             {
                 Console.WriteLine("Enter Employee " + (i + 1) + " ID");
                 empid[i] = Console.ReadLine();
-                Console.WriteLine("Enter Employee " +(i+1)+ "Name");
+                Console.WriteLine("Enter Employee " +(i+1) + "Name");
                 empname[i] = Console.ReadLine();
             }
             //To dispaly the employee deatils
