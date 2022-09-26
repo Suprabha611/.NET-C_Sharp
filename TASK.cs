@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Task_12
 {
-    internal class TASK
+    internal class cond
     {
-        public static void Main()
-        {
-            Conditional();
-            TASK c = new TASK();
-            c.Looping();
-        }
         public void hello()
         {
             string yourName;
             Console.WriteLine("Your name?");
             yourName = Console.ReadLine();
             Console.WriteLine("Hello {0}", yourName);
+        }
+        public static void Main()
+        {
+            Conditional();
+            cond c = new cond();
+            c.Looping();
         }
         public static void Conditional()
         {
@@ -49,7 +49,6 @@ namespace Task_12
             for (int i = 0; i < n2.Length; i++)
             {
                 sum = sum + n2[i];
-                
             }
             Console.WriteLine("Sum = {0}",sum);
         }
