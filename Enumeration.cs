@@ -13,7 +13,7 @@ namespace Task_12
         enum training
         {
             DotNet_FullStack,
-            HTML,
+            HTML=0,
             CSS=1,
             BOOTSTRAP,
             JS,

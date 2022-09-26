@@ -40,7 +40,7 @@ namespace Task_12
         public void Looping()
         {
             int[] n1 = new int[4] { 1, 2, 5, 6 };
-            int[] n2 = new int[5] { 7, 3, 9, 4, 1 };
+            int[] n2 = new int[5] { 7, 3, 9, 4, 2 };
             int sum = 0;
             for (int i = 0; i < n1.Length; i++)
             {
