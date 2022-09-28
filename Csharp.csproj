@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Csharp.Outkey</StartupObject>
+    <StartupObject>Csharp.Task_14.inheritance.total</StartupObject>
   </PropertyGroup>
 
 </Project>
