@@ -46,7 +46,6 @@ namespace Csharp
 
                     Console.Write(result[i, j] + " ");
                 }
-
                 Console.WriteLine();
             }
         }
