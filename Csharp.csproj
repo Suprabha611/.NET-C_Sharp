@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Csharp.Task_14.Internal_public</StartupObject>
+    <StartupObject>Csharp.Task_15.TestUserDefinedException</StartupObject>
   </PropertyGroup>
 
 </Project>

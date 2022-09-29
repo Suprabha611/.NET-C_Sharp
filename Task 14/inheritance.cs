@@ -17,7 +17,7 @@ namespace Csharp.Task_14
         public class Staff : Bonus
         {
             protected int salary = 25000;
-            public void Staff_bonus()
+            public void GetBonus1()
             {
                 bonus = 3 * salary;
                 Console.WriteLine($"Staff salary: {salary} and Bonus= { bonus}");
@@ -26,7 +26,7 @@ namespace Csharp.Task_14
         public class NonStaff : Staff
         {
             protected int salary = 15000;
-            public void NonStaff_bonus()
+            public void GetBonus2()
             {
                 bonus = 2 * salary;
                 Console.WriteLine($"Non Staff Salary: {salary} and Bonus= {bonus}");
@@ -39,9 +39,9 @@ namespace Csharp.Task_14
             public static void Main()
             {
                 Staff s = new Staff();
-                s.Staff_bonus();
+                s.GetBonus1();
                 NonStaff n = new NonStaff();
-                n.NonStaff_bonus();
+                n.GetBonus2();
             }
         }
     }
