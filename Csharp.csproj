@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Csharp.mobile</StartupObject>
+    <StartupObject>Csharp.Task_14.Internal_public</StartupObject>
   </PropertyGroup>
 
 </Project>

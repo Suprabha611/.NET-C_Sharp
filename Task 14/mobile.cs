@@ -25,10 +25,8 @@ namespace Csharp
 
                                     /*or*/
 
-
             Console.WriteLine("Enter the 10 digit mobile number");
-            //string mobile = "(9/8/7)389674670"--> Ture otherwise false
-            var number = (Console.ReadLine());
+            var number = Console.ReadLine();
             var validate_number = Regex.IsMatch(number, @"^[789]\d{9}$");
             Console.WriteLine(validate_number);
         }
