@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Csharp.Task_15.TestUserDefinedException</StartupObject>
+    <StartupObject>Csharp.Task16.Bank</StartupObject>
   </PropertyGroup>
 
 </Project>
