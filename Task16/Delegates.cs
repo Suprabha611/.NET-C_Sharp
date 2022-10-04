@@ -56,7 +56,7 @@ namespace Csharp.Task16
 
             Console.WriteLine("Bank 5:");
             id -= i.GetInterest5;
-            i.GetInterest5("SBI Bank", 600, 1, 3.50);
+            i.GetInterest5("ICICI Bank", 600, 1, 3.50);
         }
     }
 }
